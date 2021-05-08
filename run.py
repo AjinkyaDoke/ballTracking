@@ -10,7 +10,7 @@ def main():
 
     start_time = time.time()
 
-    vid = cv2.VideoCapture('22496-22790.avi')
+    vid = cv2.VideoCapture('test.avi')
 
     fps = vid.get(cv2.CAP_PROP_FPS)
     frame_width = int(vid.get(3))
